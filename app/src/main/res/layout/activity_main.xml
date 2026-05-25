@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0F172A"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App Login"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sistema de autenticação"
+        android:textColor="#CBD5E1"
+        android:textSize="18sp"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="ENTRAR"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2563EB"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btRegistrar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="CADASTRAR"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#16A34A"/>
+</LinearLayout>
