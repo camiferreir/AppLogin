@@ -68,19 +68,6 @@ O aplicativo permite:
 - Verificação de login e senha
 - Mensagens utilizando Toast
 
----
-
-# 🗄 Banco de Dados
-
-O aplicativo utiliza SQLite para armazenamento local dos usuários.
-
-Tabela criada:
-
-```sql
-CREATE TABLE utilizador(
-    username TEXT PRIMARY KEY,
-    password TEXT
-);
 ````
 
 ---
